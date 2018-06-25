@@ -1,5 +1,5 @@
 {
-  "name": "cfg-yaml",
+  "name": "cfg-yml",
   "version": "1.0.0",
   "description": "search in yml file by params",
   "main": "yml-reader.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kualkua/cfgYml.git"
+    "url": "git+https://github.com/kualkua/cfg-yml.git"
   },
   "keywords": [
     "node",
@@ -19,9 +19,9 @@
   "author": "Dmtriy Kolokot dmitriy.kolokot@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kualkua/cfgYml/issues"
+    "url": "https://github.com/kualkua/cfg-yml/issues"
   },
-  "homepage": "https://github.com/kualkua/cfgYml#readme",
+  "homepage": "https://github.com/kualkua/cfg-yml#readme",
   "dependencies": {
     "js-yaml":"^3.12.0"
   }
