@@ -1,7 +1,8 @@
 yaml = require('js-yaml');
 fs   = require('fs');
+class CfgError extends Error{}
 
-exports.CfgError =  class CfgError extends Error{}
+module.exports.CfgError = CfgError;
 
 function cfgYml(configFile, searchParams = {}, ) {
     try {
@@ -61,4 +62,4 @@ function cfgYml(configFile, searchParams = {}, ) {
     }
 }
 
-exports.default = cfgYml
+module.exports = cfgYml
