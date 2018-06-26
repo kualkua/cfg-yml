@@ -1,8 +1,7 @@
 yaml = require('js-yaml');
 fs   = require('fs');
 
-class CfgError extends Error{
-}
+export class CfgError extends Error{}
 
 function cfgYml(configFile, searchParams = {}, ) {
     try {
