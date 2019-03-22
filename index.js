@@ -11,7 +11,7 @@ function cfgYml(configFile, searchParams = {}, ) {
         if (!fs.existsSync(configFileExt)) {
             configFileExt = configFile + '.yaml'
             if (!fs.existsSync(configFileExt)){
-                throw new CfgError('file not exist')
+                throw new CfgError(`file not exist: ${configFileExt}`)
             }
         }
 
