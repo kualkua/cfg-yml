@@ -2,7 +2,6 @@
   "name": "cfg-yml",
   "version": "1.0.0",
   "description": "search in yml file by params",
-  "main": "yml-reader.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
